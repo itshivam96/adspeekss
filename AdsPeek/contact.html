@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdsPeek | Agency</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo"><img src="assets/images/adspeek-logo.png" alt="adspeek-logo"></a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo"><img src="assets/images/adspeek-logo.png" alt="adspeek-logo"></a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="index.html#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="index.html#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="index.html#features" class="navbar-link" data-nav-link>Features</a>
+          </li>
+
+          <li>
+            <a href="index.html#projects" class="navbar-link" data-nav-link>projects</a>
+          </li>
+
+          <li>
+            <a href="#cont-form" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+      
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="#" class="btn-outline">Lets talk</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+            <div class="hero-content">
+
+                <p class="hero-subtitle has-before">Get in Touch with Us</p>
+            
+                <h1 class="h1 hero-title">We’d Love to Hear from You!</h1>
+            
+                <p class="hero-text">
+                    At our digital marketing agency, we believe that communication is key. Whether you have a question about our services, want to book a meeting, or just want to say hello, we’re here to help. Fill out the form below, and our team will get back to you as soon as possible. Let’s work together to elevate your brand’s presence!
+                </p>
+            
+                <div class="btn-group">
+                    <a href="#cont-form" class="btn btn-primary">Contact Us</a>
+                </div>
+            
+            </div>
+            
+
+          <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
+            <img src="https://media.istockphoto.com/id/1388642146/photo/call-center-workers.jpg?s=612x612&w=0&k=20&c=OQ-BhHBcXxYxK2zz4JUQXR6SJ1NucnaVjHWu8ylksNI=" width="650" height="650" alt="hero banner" class="img-cover">
+          </figure>
+
+        </div>
+      </section>
+      <section class="contact-us-section" id="cont-form">
+        <div class="container">
+          <h1 >Book a Meeting</h1>
+          <p class="hero-text">Ready to elevate your business? Fill out the form below to schedule a meeting.</p>
+      
+          <form class="contact-form" action="https://api.web3forms.com/submit" method="POST" method="post">
+            <div class="form-group">
+              <input type="hidden" name="access_key" value="790ddf2f-171b-4aa3-9039-5f8941c238f6">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" class="form-input" placeholder="John Doe"  name="name">
+            </div>
+      
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" class="form-input" placeholder="example@mail.com"  name="email" required>
+            </div>
+      
+            <div class="form-group">
+              <label for="phone">Your Phone</label>
+              <input type="tel" id="phone" class="form-input" placeholder="+1 (123) 456-7890" name="phone" required>
+            </div>
+      
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" class="form-input" rows="5" placeholder="Type your message here..." name="message" required></textarea>
+            </div>
+      
+            <button type="submit" class="btn btn-primary">Schedule Meeting</button>
+          </form>
+        </div>
+      
+        <style>
+          .contact-us-section {
+            padding: 40px 20px;
+            background-color: #f8f9fa; /* Light background */
+            text-align: center;
+          }
+      
+        
+      
+         
+      
+          .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff; /* White background for the form */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          }
+      
+          .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+          }
+      
+          .form-input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: border-color 0.3s;
+          }
+      
+          .form-input:focus {
+            border-color: red; /* Theme color on focus */
+            outline: none;
+          }
+      
+      
+      
+       
+      
+          @media (max-width: 768px) {
+            .contact-us-section {
+              padding: 10px;
+            }
+      
+         
+          }
+        </style>
+      </section>
+      
+
+
+
+
+
+
+
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo"><img src="assets/images/adspeek-logo.png" alt="adspeek-logo"></a>
+
+          <p class="footer-text">
+            Delivering quality and excellence in every project. Your trusted partner for innovative solutions.
+          </p>
+          
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email" required class="email-field">
+
+            <button type="submit" class="form-btn">
+              <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Strategy & Research</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Development</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Solution</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Digital Merketing</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">App Design</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">App Development</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Company</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Services</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Latest News</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+            <address class="contact-link address">
+              4517 Washington Ave. Manchester, Kentucky 39495
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="tel:+7894631546876" class="contact-link">+7894631546876</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+            <a href="mailto:info@AdsPeek.com" class="contact-link">info@AdsPeek.com</a>
+          </li>
+
+          <li class="footer-item">
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 AdsPeek| All Rights Reserved by <a href="#" class="copyright-link">Shivam & Vivek</a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Terms of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

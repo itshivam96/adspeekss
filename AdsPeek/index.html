@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdsPeek | Agency</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo"><img src="assets/images/adspeek-logo.png" alt="adspeek-logo"></a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo"><img src="assets/images/adspeek-logo.png" alt="adspeek-logo"></a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="#features" class="navbar-link" data-nav-link>Features</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link" data-nav-link>Projects</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="contact.html" class="btn-outline">Lets talk</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle has-before">Wellcome to Our Agency</p>
+
+            <h1 class="h1 hero-title">Smart Ideas for your Brand are Here</h1>
+
+            <p class="hero-text">
+              At our digital marketing agency, we focus on delivering results-driven solutions. We seamlessly combine
+              creativity and strategy to elevate your brand’s presence across all digital platforms. Our team is
+              dedicated to crafting tailored campaigns that drive engagement and growth. With a deep understanding of
+              the latest trends and techniques, we ensure your business stands out in an ever-evolving digital
+              landscape.
+            </p>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Discover More</a>
+
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="play" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">How it works</span>
+              </button>
+            </div>
+
+          </div>
+
+          <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
+            <img src="./assets/images/hero-banner.png" width="650" height="650" alt="hero banner" class="img-cover">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="802" height="654" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+            <h2 class="h2-sm section-title">Crafting Innovative Solutions, Designed for Your Success.</h2>
+
+            <p class="section-text">
+              As a full-stack developer with expertise in the MERN stack, app development, and software solutions, I
+              build digital experiences that empower your future. From scalable web applications to user-friendly mobile
+              apps, I focus on delivering projects that enhance business efficiency and growth.
+            </p>
+
+
+            <ul class="about-list">
+
+              <li class="has-before">
+                Custom pricing for advanced features or integrations (if required)
+              </li>
+
+              <li class="has-before">
+                Transparent cost estimates for any third-party services or APIs
+              </li>
+
+              <li class="has-before">
+                Satisfaction guaranteed with a 100% money-back promise
+              </li>
+
+
+            </ul>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Know More</a>
+
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">2+ Years Experience</span>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <section id="projects" class="projects-section">
+        <div class="projects-container">
+          <h2 class="h2-sm section-title">Our Projects</h2>
+          <p class="section-text text-center">
+            Maximize efficiency and reduce your development costs while creating exceptional digital experiences with
+            clean, user-friendly UI/UX.
+          </p>
+          <div class="projects-grid">
+            <div class="project-card ">
+              <img
+                src="https://imgs.search.brave.com/L8P5K1Ml5YKQcAEXuyhTYRI-KcwVF_80vzChhJHoOi8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ib290/c3RyYXBtYWRlLmNv/bS9jb250ZW50L3Rl/bXBsYXRlZmlsZXMv/aVBvcnRmb2xpby9p/UG9ydGZvbGlvLWJv/b3RzdHJhcC13ZWJz/aXRlLXRlbXBsYXRl/LW1kLndlYnA"
+                alt="Project 2" class="project-image">
+              <h3 class="h3 card-title project_tilte">Project Title 2</h3>
+              <p class="section-text text-center">Brief description of the project, highlighting key features and
+                outcomes.</p>
+            </div>
+            <div class="project-card ">
+              <img
+                src="https://imgs.search.brave.com/L8P5K1Ml5YKQcAEXuyhTYRI-KcwVF_80vzChhJHoOi8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ib290/c3RyYXBtYWRlLmNv/bS9jb250ZW50L3Rl/bXBsYXRlZmlsZXMv/aVBvcnRmb2xpby9p/UG9ydGZvbGlvLWJv/b3RzdHJhcC13ZWJz/aXRlLXRlbXBsYXRl/LW1kLndlYnA"
+                alt="Project 2" class="project-image">
+              <h3 class="h3 card-title project_tilte">Project Title 2</h3>
+              <p class="section-text text-center">Brief description of the project, highlighting key features and
+                outcomes.</p>
+            </div>
+            <div class="project-card ">
+              <img
+                src="https://imgs.search.brave.com/L8P5K1Ml5YKQcAEXuyhTYRI-KcwVF_80vzChhJHoOi8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ib290/c3RyYXBtYWRlLmNv/bS9jb250ZW50L3Rl/bXBsYXRlZmlsZXMv/aVBvcnRmb2xpby9p/UG9ydGZvbGlvLWJv/b3RzdHJhcC13ZWJz/aXRlLXRlbXBsYXRl/LW1kLndlYnA"
+                alt="Project 2" class="project-image">
+              <h3 class="h3 card-title project_tilte">Project Title 2</h3>
+              <p class="section-text text-center">Brief description of the project, highlighting key features and
+                outcomes.</p>
+            </div>
+          </div>
+
+        </div>
+        </div>
+
+        <style>
+          .projects-section {
+            padding: 20px 20px;
+            background-color: #f9f9f9;
+          }
+
+          .projects-container {
+            max-width: 1200px;
+            margin: auto;
+            text-align: center;
+          }
+
+          .projects-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+          }
+
+          .project-card {
+            background: white;
+            border-radius: 3px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            width: calc(33% - 30px);
+            min-width: 300px;
+            transition: transform 0.3s;
+            overflow: hidden;
+            position: relative;
+            padding: 2px;
+
+          }
+
+          .project-card:hover {
+            transform: translateY(-5px);
+            background-color: red;
+            color: white;
+
+
+          }
+
+          .project_tilte {
+            margin-top: 10px;
+
+
+
+          }
+
+          .project-image {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+          }
+
+         
+        </style>
+      </section>
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-What We Offer-</p>
+
+          <h2 class="h2 section-title text-center">Our Creative Services</h2>
+
+          <p class="section-text text-center">
+            Maximize efficiency and reduce your development costs while creating exceptional digital experiences with
+            clean, user-friendly UI/UX.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-1.png" width="140" height="140" loading="lazy"
+                    alt="UI/UX Creative Design" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">UI/UX Design</h3>
+
+                  <p class="card-text">
+                    I focus on creating intuitive, user-centered interfaces that not only look great but also deliver
+                    seamless user experiences across all platforms.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-2.png" width="140" height="140" loading="lazy" alt="App Development"
+                    class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">App Development</h3>
+
+                  <p class="card-text">
+                    I specialize in building responsive, high-performance apps using modern technologies, tailored to
+                    meet the needs of your business.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-3.png" width="140" height="140" loading="lazy" alt="Web Development"
+                    class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Web Development</h3>
+
+                  <p class="card-text">
+                    From front-end to back-end development, I create scalable, secure, and feature-rich web applications
+                    using the latest frameworks and technologies.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-4.png" width="140" height="140" loading="lazy"
+                    alt="Custom Software Development" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Custom Software Solutions</h3>
+
+                  <p class="card-text">
+                    I offer tailored software solutions to streamline your business processes and improve overall
+                    efficiency, ensuring seamless integration with your existing systems.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+
+          <a href="#" class="btn btn-primary">Get Started</a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features" id="features" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-Why Choose Us-</p>
+
+          <h2 class="h2 section-title text-center">Reasons to Choose Us</h2>
+
+          <p class="section-text text-center">
+            Optimize your development process and reduce operational costs while delivering cutting-edge UI/UX designs
+            that enhance user experience.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="01">01</data>
+
+                <h3 class="h3 card-title">Custom Icon Integration</h3>
+
+                <p class="card-text">
+                  Enhance your app's design with tailored icons to match your brand identity.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="02">02</data>
+
+                <h3 class="h3 card-title">6 Months Free Support</h3>
+
+                <p class="card-text">
+                  Get dedicated support for six months to ensure seamless integration and performance.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="03">03</data>
+
+                <h3 class="h3 card-title">Tailored Development Strategy</h3>
+
+                <p class="card-text">
+                  We craft a custom strategy based on your business needs to ensure the best possible outcomes.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="04">04</data>
+
+                <h3 class="h3 card-title">Premium Quality Images</h3>
+
+                <p class="card-text">
+                  We provide high-quality visuals to elevate the look and feel of your digital products.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="05">05</data>
+
+                <h3 class="h3 card-title">Cutting-Edge Features</h3>
+
+                <p class="card-text">
+                  Stay ahead of the competition with the most advanced and innovative features integrated into your
+                  projects.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="06">06</data>
+
+                <h3 class="h3 card-title">Affordable Pricing</h3>
+
+                <p class="card-text">
+                  High-quality solutions at competitive prices to fit within your budget.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FAQ
+      -->
+
+      <section class="section faq" aria-label="Frequently Asked Questions">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Frequently Asked Questions</h2>
+
+            <a href="#" class="btn btn-primary">Work Together</a>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    01. How can you develop your own UX strategy in just five simple steps?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Developing a UX strategy is about understanding the user's needs and aligning them with business
+                    goals. Here are five practical steps to get you started: from research and design to testing and
+                    iteration.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    02. What career paths are available in UX? Agency vs. In-House vs. Freelance?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    UX professionals can choose various career paths: working in an agency, joining an in-house team, or
+                    going freelance. Each path has its own set of advantages, from diversity in projects to stability
+                    and flexibility.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    03. What is a problem statement in UX? (And how do you write one?)
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    A problem statement clearly defines the issue your design aims to solve. Learn how to craft one by
+                    focusing on the user's pain points and the goals of the project.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    04. What techniques do UX designers use to create a clear and concise design?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    UX designers use several techniques such as wireframing, user personas, and prototyping to arrive at
+                    clear and actionable design solutions. These tools help refine the user experience.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    05. How do you identify obstacles users face, and what are their goals?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Understanding user obstacles starts with user research. Through surveys, interviews, and testing,
+                    designers can uncover what users are trying to achieve and the challenges they encounter along the
+                    way.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo"><img src="assets/images/adspeek-logo.png" alt="adspeek-logo"></a>
+
+          <p class="footer-text">
+            Delivering quality and excellence in every project. Your trusted partner for innovative solutions.
+          </p>
+
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email" required class="email-field">
+
+            <button type="submit" class="form-btn">
+              <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Strategy & Research</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Development</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Solution</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Digital Merketing</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">App Design</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">App Development</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Company</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Services</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Latest News</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+            <address class="contact-link address">
+              4517 Washington Ave. Manchester, Kentucky 39495
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="tel:+7894631546876" class="contact-link">+7894631546876</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+            <a href="mailto:info@AdsPeek.com" class="contact-link">info@AdsPeek.com</a>
+          </li>
+
+          <li class="footer-item">
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 AdsPeek| All Rights Reserved by <a href="#" class="copyright-link">Shivam & Vivek</a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Terms of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
